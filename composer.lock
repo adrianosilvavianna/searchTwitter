@@ -4,73 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ab2fd266e959aef0a4feff907bf57b84",
-    "content-hash": "46137410723e1216fbed2cd648ded6fc",
+    "hash": "6f5565e58661890dd85c0075225c2c47",
+    "content-hash": "9fc6cd5ae1d8e21473351ac1c7342f54",
     "packages": [
-        {
-            "name": "codeandcode/auth-start",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/code-and-code/auth-start.git",
-                "reference": "daf9f9cb09a9c8db1d107e02ef5237a90e207ba7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/code-and-code/auth-start/zipball/daf9f9cb09a9c8db1d107e02ef5237a90e207ba7",
-                "reference": "daf9f9cb09a9c8db1d107e02ef5237a90e207ba7",
-                "shasum": ""
-            },
-            "require": {
-                "codeandcode/micro-fwk": "dev-master",
-                "php": ">=5.4"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "Cac\\Auth\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Code&Code",
-                    "email": "contato@codeandcode.com.br"
-                },
-                {
-                    "name": "Adriano Vianna",
-                    "email": "adrianovianna@codeandcode.com.br"
-                }
-            ],
-            "keywords": [
-                "php",
-                "project start",
-                "projecto inical",
-                "start"
-            ],
-            "time": "2017-08-04 19:34:26"
-        },
         {
             "name": "codeandcode/micro-fwk",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/code-and-code/micro-fwk.git",
-                "reference": "14fa0e83b584944f3364c5c1a04144cd95ec8a33"
+                "reference": "9c4d84a9c1259c9860ee35f5b05a51099b102d68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/code-and-code/micro-fwk/zipball/14fa0e83b584944f3364c5c1a04144cd95ec8a33",
-                "reference": "14fa0e83b584944f3364c5c1a04144cd95ec8a33",
+                "url": "https://api.github.com/repos/code-and-code/micro-fwk/zipball/9c4d84a9c1259c9860ee35f5b05a51099b102d68",
+                "reference": "9c4d84a9c1259c9860ee35f5b05a51099b102d68",
                 "shasum": ""
             },
             "require": {
                 "codeguy/upload": "^1.3",
                 "desarrolla2/cache": "~2.0",
-                "php": ">=5.3",
+                "php": ">=5.5",
                 "phpmailer/phpmailer": "^5.2",
                 "plasticbrain/php-flash-messages": "^1.0",
                 "twig/twig": "~1.0"
@@ -104,53 +58,7 @@
                 "micro-fwk",
                 "start"
             ],
-            "time": "2017-08-08 18:40:40"
-        },
-        {
-            "name": "codeandcode/simplebase-start",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/code-and-code/simplebase-start.git",
-                "reference": "30df8b814ff364a7f2511bf457f9ed9ddbb510b3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/code-and-code/simplebase-start/zipball/30df8b814ff364a7f2511bf457f9ed9ddbb510b3",
-                "reference": "30df8b814ff364a7f2511bf457f9ed9ddbb510b3",
-                "shasum": ""
-            },
-            "require": {
-                "codeandcode/micro-fwk": "dev-master",
-                "php": ">=5.4"
-            },
-            "type": "project",
-            "autoload": {
-                "psr-4": {
-                    "Cac\\SimpleBase\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Code&Code",
-                    "email": "contato@codeandcode.com.br"
-                },
-                {
-                    "name": "Angelo Biscola",
-                    "email": "angelo@codeandcode.com.br"
-                }
-            ],
-            "keywords": [
-                "php",
-                "project start",
-                "projecto inical",
-                "start"
-            ],
-            "time": "2017-08-07 18:33:36"
+            "time": "2017-08-24 16:58:09"
         },
         {
             "name": "codeguy/upload",
@@ -253,6 +161,187 @@
                 "redis"
             ],
             "time": "2017-01-18 12:58:33"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-06-22 18:50:49"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "09e549f5534380c68761260a71f847644d8f65aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/09e549f5534380c68761260a71f847644d8f65aa",
+                "reference": "09e549f5534380c68761260a71f847644d8f65aa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2017-05-20 23:14:18"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "811b676fbab9c99e359885032e5ebc70e442f5b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/811b676fbab9c99e359885032e5ebc70e442f5b8",
+                "reference": "811b676fbab9c99e359885032e5ebc70e442f5b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-07-17 09:11:21"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -374,17 +463,67 @@
             "time": "2016-04-01 08:39:38"
         },
         {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06 14:39:51"
+        },
+        {
             "name": "twig/twig",
             "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "73ab3a1215a9e13392ae120236824a6ea5ef507a"
+                "reference": "cd06d3c69619dcf5bfdbfe5d1f18923389a5bd43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/73ab3a1215a9e13392ae120236824a6ea5ef507a",
-                "reference": "73ab3a1215a9e13392ae120236824a6ea5ef507a",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/cd06d3c69619dcf5bfdbfe5d1f18923389a5bd43",
+                "reference": "cd06d3c69619dcf5bfdbfe5d1f18923389a5bd43",
                 "shasum": ""
             },
             "require": {
@@ -398,7 +537,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.34-dev"
+                    "dev-master": "1.35-dev"
                 }
             },
             "autoload": {
@@ -436,21 +575,19 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-08-02 18:11:46"
+            "time": "2017-08-19 17:37:14"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "codeandcode/micro-fwk": 20,
-        "codeandcode/auth-start": 20,
-        "codeandcode/simplebase-start": 20
+        "codeandcode/micro-fwk": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4"
+        "php": ">=5.5"
     },
     "platform-dev": []
 }

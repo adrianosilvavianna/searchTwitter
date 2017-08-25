@@ -19,7 +19,4 @@ class AuthController extends Authenticate
     {
         echo $this->render('auth.register');
     }
-
-
-
 }
