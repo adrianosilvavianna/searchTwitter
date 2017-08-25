@@ -1,0 +1,41 @@
+{
+    "name": "codeandcode/start",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/code-and-code/start",
+    "support": {
+        "forum": "https://github.com/code-and-code/start"
+    },
+    "require": {
+        "php": ">=5.5",
+        "codeandcode/micro-fwk":  "dev-master",
+        "codeandcode/auth-start": "1.*",
+        "codeandcode/simplebase-start": "1.*"
+     },
+    "authors": [
+        {
+            "name": "Code&Code",
+            "email": "contato@codeandcode.com.br"
+        },
+        {
+            "name": "Angelo Biscola",
+            "email": "angelo@codeandcode.com.br"
+        },
+        {
+            "name": "Adriano Vianna",
+            "email": "adrianovianna@codeandcode.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Cac\\Auth\\": "vendor/codeandcode/auth-start/src"
+
+        }
+    },
+    "minimum-stability": "dev",
+
+    "config": {
+        "optimize-autoloader": true
+    }
+}
