@@ -22,22 +22,33 @@ class HomeController extends Action
     }
     public function index()
     {
+        echo $this->render('home.index');
+    }
+
+    public function hashtag(){
+        $hashtag = $_POST['hashtag'];
+        $this->search($hashtag);
+    }
+
+
+    public function search($hastag)
+    {
         $r1 = $this->client->post($this->token,
             [
                 'query' => ['grant_type' => 'client_credentials'],
-                
+
                 'headers' =>
-                            [
-                             'Authorization' => "Basic {$this->credentials}",
-                             'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
-                            ]
+                    [
+                        'Authorization' => "Basic {$this->credentials}",
+                        'Content-Type' => 'application/x-www-form-urlencoded;charset=UTF-8'
+                    ]
             ]);
 
         //obj token
         $token = json_decode($r1->getBody());
 
 
-        $r1 = $this->client->get($this->tweets.'timbeta',
+        $r1 = $this->client->get($this->tweets.$hastag,
             [
                 'headers' =>
                     [
@@ -46,11 +57,7 @@ class HomeController extends Action
             ]);
 
         //obj Tweets
+
         dd(json_decode($r1->getBody()));
-    }
-
-    public function send()
-    {
-
     }
 }

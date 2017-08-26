@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f5565e58661890dd85c0075225c2c47",
     "content-hash": "9fc6cd5ae1d8e21473351ac1c7342f54",
     "packages": [
         {
@@ -62,24 +61,20 @@
         },
         {
             "name": "codeguy/upload",
-            "version": "1.3.2",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeguy/Upload.git",
-                "reference": "6a9e5e1fb58d65346d0e557db2d46fb25efd3e37"
+                "url": "https://github.com/brandonsavage/Upload.git",
+                "reference": "e2bea54f98eb4fc09b5b296565eb7e54ae43642b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Upload/zipball/6a9e5e1fb58d65346d0e557db2d46fb25efd3e37",
-                "reference": "6a9e5e1fb58d65346d0e557db2d46fb25efd3e37",
+                "url": "https://api.github.com/repos/brandonsavage/Upload/zipball/e2bea54f98eb4fc09b5b296565eb7e54ae43642b",
+                "reference": "e2bea54f98eb4fc09b5b296565eb7e54ae43642b",
                 "shasum": ""
             },
             "require": {
-                "ext-fileinfo": "*",
                 "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "autoload": {
@@ -95,7 +90,7 @@
                 {
                     "name": "Josh Lockhart",
                     "email": "info@joshlockhart.com",
-                    "homepage": "http://www.joshlockhart.com/"
+                    "homepage": "https://github.com/codeguy/"
                 }
             ],
             "description": "Handle file uploads with extensible validation and storage strategies",
@@ -105,7 +100,7 @@
                 "upload",
                 "validation"
             ],
-            "time": "2013-07-07 17:01:41"
+            "time": "2012-11-06T00:41:12+00:00"
         },
         {
             "name": "desarrolla2/cache",
@@ -160,7 +155,7 @@
                 "mysql",
                 "redis"
             ],
-            "time": "2017-01-18 12:58:33"
+            "time": "2017-01-18T12:58:33+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -225,7 +220,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-06-22 18:50:49"
+            "time": "2017-06-22T18:50:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -418,7 +413,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2017-07-26 21:00:20"
+            "time": "2017-07-26T21:00:20+00:00"
         },
         {
             "name": "plasticbrain/php-flash-messages",
@@ -460,7 +455,7 @@
                 "messages",
                 "session"
             ],
-            "time": "2016-04-01 08:39:38"
+            "time": "2016-04-01T08:39:38+00:00"
         },
         {
             "name": "psr/http-message",
