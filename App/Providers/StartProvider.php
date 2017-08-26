@@ -27,12 +27,12 @@ class StartProvider extends ServiceProvider
      */
     public function userRoutes()
     {
-        include __DIR__.'/../routes/user.php';
+        //include __DIR__.'/../routes/user.php';
     }
 
     public function adminRoutes()
     {
-        include __DIR__.'/../routes/admin.php';
+        //include __DIR__.'/../routes/admin.php';
     }
        
 }
