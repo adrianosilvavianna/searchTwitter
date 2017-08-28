@@ -34,7 +34,6 @@ class HomeController extends Action
         }
     }
 
-
     public function search($hastag)
     {
         $r1 = $this->client->post($this->token,
