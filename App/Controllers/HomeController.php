@@ -27,7 +27,11 @@ class HomeController extends Action
 
     public function hashtag(){
         $hashtag = $_POST['hashtag'];
-        $this->search($hashtag);
+        if(!empty($hashtag)){
+            $this->search($hashtag);
+        }else{
+            echo 'Campo Vazio!';
+        }
     }
 
 
@@ -58,6 +62,6 @@ class HomeController extends Action
 
         //obj Tweets
 
-        dd(json_decode($r1->getBody()));
+        return json_decode($r1->getBody());
     }
 }

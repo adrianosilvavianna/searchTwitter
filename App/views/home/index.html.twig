@@ -13,11 +13,11 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="col-sm-3">
-					<form action="/hashtag" method="post">
+					<form action="" method="">
 						<label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
 						<div class="input-group mb-2 mb-sm-0">
 							<div class="input-group-addon">#</div>
-							<input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="hastag" name="hashtag">
+							<input type="text" class="form-control" id="hastagText" placeholder="hashtag" name="hashtag">
 							<button type="submit" class="btn btn-primary">Enviar</button>
 						</div>
 
@@ -28,5 +28,23 @@
 	</div>
 
 		<script src="{{ assets('home/js/jquery.min.js') }}"></script>
+
+		<script>
+			$( document ).ready(function() {
+				$('form').submit(function(){
+					$.ajax({
+						type: "POST",
+						url: '/hashtag',
+						data: {hastag: $('#hastagText').val()},
+						success: function (result) {
+							console.log(result);
+						},
+						error: function(result){
+							alert('error');					}
+					});
+				});
+			});
+
+		</script>
 	</body>
 </html>
